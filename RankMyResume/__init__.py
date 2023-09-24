@@ -1,0 +1,1 @@
+from RankMyResume.RankMyResume import RankMyResume
