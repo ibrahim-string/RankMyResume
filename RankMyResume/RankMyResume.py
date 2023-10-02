@@ -59,6 +59,7 @@ class RankMyResume:
             if '.doc' in file:
                 doc.append(file)
         text ={'pdf_name':[],'pdf_text':[]}
+        
         rule1=rule1.strip()
         for i in pdf:
             if rule1 in extract_text(f'{i}'):
