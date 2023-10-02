@@ -1,0 +1,11 @@
+README.md
+licence.md
+setup.cfg
+setup.py
+RankMyResume/RankMyResume.py
+RankMyResume/__init__.py
+RankMyResume.egg-info/PKG-INFO
+RankMyResume.egg-info/SOURCES.txt
+RankMyResume.egg-info/dependency_links.txt
+RankMyResume.egg-info/requires.txt
+RankMyResume.egg-info/top_level.txt
