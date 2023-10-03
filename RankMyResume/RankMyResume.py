@@ -23,8 +23,8 @@ class RankMyResume:
         text ={'pdf_name':[],'pdf_text':[]}
         for i in pdf:
             try:
-                text['pdf_name'].append(f'{i}')
                 text['pdf_text'].append(extract_text(f'{i}'))
+                text['pdf_name'].append(f'{i}')
             except:
                 continue
         df=pd.DataFrame(text)
@@ -67,8 +67,8 @@ class RankMyResume:
         for i in pdf:
             try:
                 if rule1 in extract_text(f'{i}'):
-                    text['pdf_name'].append(f'{i}')
                     text['pdf_text'].append(extract_text(f'{i}'))
+                    text['pdf_name'].append(f'{i}')
             except:
                 continue
         df=pd.DataFrame(text)
